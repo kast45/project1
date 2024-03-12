@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#firstD {
+    background-color: rgb(33, 143, 143);
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#box {
+    display: flex;
+}
+
+#firstB {
+    flex: 2;
+    padding: 20px;
+}
+
+#secondB {
+    flex: 1;
+    padding: 20px;
+}
+
+.input-group {
+    margin-top: 20px;
+}
+
+#amount {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-outline-secondary {
+    background-color: rgb(33, 143, 143);
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+#balance,
+#income,
+#expense {
+    font-weight: bold;
+}
+ 
+.btn:hover{
+    background-color: #0056b3;
+    
+}
