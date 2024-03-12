@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="./rejester.css">
+  <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+  
+</head>
+<body>
+  <h1>Registration Page</h1>
+  <form id="registrationForm">
+    <div>
+      <input type="text" placeholder="Username" id="username" class="input-box" required>
+      <span class="error-message" id="usernameError"></span>
+    </div>
+    <div>
+      <input type="date" class="input-box">
+    </div>
+    <div>
+      <input type="password" placeholder="Password" id="password" class="input-box" required>
+      <span class="error-message" id="passwordError"></span>
+    </div>
+    <div>
+      <input type="password" placeholder="Confirm Password" id="confirmPassword" class="input-box" required>
+      <span class="error-message" id="confirmPasswordError"></span>
+    </div>
+    <button type="submit">Register</button>
+  </form>
+
+ <script src="./rejester.js"></script>
+</body>
+</html>
