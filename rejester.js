@@ -17,6 +17,9 @@ $(document).ready(function() {
         $('#passwordError').text('Password must be at least 8 characters long');
         return;
       }
+      if (username.length>5 && password.length>8) {
+        window.location.href="./prjct.html"
+       }
   else alert ('your are now one of us ')
      
     });

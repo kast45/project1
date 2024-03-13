@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Add Income
+    // add income
     $('#btnAddI').click(function() {
         var amount = parseInt($('#amount').val());
         var currentIncome = parseInt($('#income').text().split(' ')[1].replace('$', ''));
@@ -7,7 +7,7 @@ $(document).ready(function() {
         updateBalance();
     });
 
-    // Add Expense
+    // add expense
     $('#btnAddE').click(function() {
         var amount = parseInt($('#amount').val());
         var currentExpense = parseInt($('#expense').text().split(' ')[1].replace('$', ''));
@@ -15,7 +15,7 @@ $(document).ready(function() {
         updateBalance();
     });
 
-    // Reset
+    // reset
     $('#btnReset').click(function() {
         $('#amount').val('');
         $('#balance').text('Balance 0$');
@@ -23,7 +23,7 @@ $(document).ready(function() {
         $('#expense').text('Expense 0$');
     });
 
-    // Update Balance
+    // update balance
     function updateBalance() {
         var income = parseInt($('#income').text().split(' ')[1].replace('$', ''));
         var expense = parseInt($('#expense').text().split(' ')[1].replace('$', ''));
